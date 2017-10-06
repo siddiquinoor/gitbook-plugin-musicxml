@@ -8,7 +8,7 @@ require(["gitbook", "jquery"], function (gitbook, $) {
             var xml = $(this).data('url');
             osmd.load(xml)
                 .then(function() {
-                    osmd.zoom = 0.55;
+                    osmd.zoom = 0.8;
                     osmd.render();
                 })
                 .catch(function() {
