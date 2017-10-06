@@ -1,0 +1,25 @@
+{
+  "name": "gitbook-plugin-musicxml",
+  "version": "1.0.0",
+  "description": "Plugin for displaying MusicXML (music notation) in Gitbook ",
+  "main": "index.js",
+  "engines": {
+    "gitbook": ">=3.x.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymcatar/gitbook-plugin-musicxml.git"
+  },
+  "author": "ymcatar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ymcatar/gitbook-plugin-musicxml/issues"
+  },
+  "homepage": "https://github.com/ymcatar/gitbook-plugin-musicxml#readme",
+  "dependencies": {
+    "uuid": "^3.1.0"
+  }
+}
