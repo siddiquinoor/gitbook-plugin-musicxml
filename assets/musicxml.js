@@ -1,9 +1,8 @@
 require(["gitbook", "jquery"], function (gitbook, $) {
     var onLoad = function() {
-        // var osmd = new opensheetmusicdisplay.OSMD("container-id");
         $('.musicxml').each(function() {
             var id = $(this).attr('id');
-            var osmd = new opensheetmusicdisplay.OSMD(id);
+            var osmd = new opensheetmusicdisplay.OSMD(id, true);
 
             var xml = $(this).data('url');
             osmd.load(xml)
@@ -18,4 +17,4 @@ require(["gitbook", "jquery"], function (gitbook, $) {
     }
   
     gitbook.events.bind("page.change", onLoad);
-  });
+});

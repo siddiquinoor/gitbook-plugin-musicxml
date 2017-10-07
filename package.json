@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-musicxml",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Plugin for displaying MusicXML (music notation) in Gitbook ",
   "main": "index.js",
   "engines": {
